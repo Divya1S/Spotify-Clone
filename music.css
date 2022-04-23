@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Caveat+Brush&family=Corinthia:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Corinthia:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Caveat+Brush&family=Corinthia:wght@700&family=Yrsa:wght@700&display=swap');
+body{
+    background-color: plum;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Caveat Brush', cursive;
+    font-weight: lighter;
+    font-size: 1.9rem;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 55px;
+    background-color: aquamarine;
+    color: black;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 50px;
+    padding: 0 2px;
+}
+
+.brand{
+    font-family: 'Yrsa', serif;
+    font-display: bold;
+    color: rgb(119, 13, 13);
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    background-color: yellow;
+}
+
+.container{
+    min-height: 55vh;
+    background-color: black;
+    color: palevioletred;
+    font-family: 'Caveat Brush', cursive;
+    display: flex;
+    width: 80%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 64px;
+    background-image: url('/img/bg3.jpg');
+}
+
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+
+}
+
+.songItemContainer{
+    margin-top: 74px;
+}
+
+.songItem{
+    height: 45px;
+    display: flex;
+    background-color: whitesmoke;
+    color: black;
+    margin: 8px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left:10vw;
+    font-family: 'Yrsa', serif;
+    font-size: larger;
+    color: coral;
+
+}
+
+.button {
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+  }
